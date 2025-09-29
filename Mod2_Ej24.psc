@@ -4,7 +4,7 @@ Algoritmo Mod2_Ej24
 	
 	Escribir "Introduce el tipo de carne(de vacuno=1 o de cordero=2): "
 	Leer tipoCarne
-	Escribir "Introduce la cocción de la carne(casi cruda=1, al punto=2 o bien hecha=3): "
+	Escribir "Introduce la cocciÃ³n de la carne(casi cruda=1, al punto=2 o bien hecha=3): "
 	Leer modoCoccion
 	Escribir "Introduce el peso de la carne en gramos: "
 	Leer peso
@@ -19,7 +19,6 @@ Algoritmo Mod2_Ej24
 		Si modoCoccion=3
 			segs=25*peso/500*60
 		FinSi
-		Escribir "Tardaría ",segs," segundos"
 	SiNo
 		Si modoCoccion=1 Entonces
 			segs=15*peso/400*60
@@ -30,7 +29,8 @@ Algoritmo Mod2_Ej24
 		Si modoCoccion=3
 			segs=40*peso/400*60
 		FinSi
-		Escribir "Tardaría ",segs," segundos"
+	Escribir "TardarÃ­a ",segs," segundos"
 	FinSi
 	
 FinAlgoritmo
+
