@@ -8,17 +8,16 @@ Algoritmo Mod3_Ej12
 	Escribir "Introduzca el exponente: "
 	Leer exponente
 	
+	resultado<-1
 	
 	Si exponente=0 Entonces
-			resultado=1 
+		resultado<-1
 	SiNo
 		Si exponente>0
-			resultado=1
 			Para i<-1 Hasta exponente Con Paso 1 Hacer
 				resultado=resultado*base
 			Fin Para
 		SiNo
-			resultado=1
 			Para i<-1 Hasta -exponente Con Paso 1 Hacer
 				resultado=resultado*base
 			Fin Para
