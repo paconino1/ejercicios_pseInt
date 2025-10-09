@@ -1,6 +1,6 @@
 Algoritmo Mod3_Ej13
 	
-	Definir minimo, maximo Como Real
+	Definir minimo, maximo, media Como Real
 	Definir respuesta Como Caracter
 	
 	Escribir "Piensa en un número del 1 al 100 y trataré de adivinarlo"
@@ -24,4 +24,5 @@ Algoritmo Mod3_Ej13
 	Escribir "El número es ", media
 	
 FinAlgoritmo
+
 
