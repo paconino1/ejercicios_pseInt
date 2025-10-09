@@ -5,7 +5,7 @@ Algoritmo Mod3_Ej13
 	
 	Escribir "Piensa en un número del 1 al 100 y trataré de adivinarlo"
 	
-	minimo=0
+	minimo=1
 	maximo=100
 	
 	Repetir
@@ -24,5 +24,6 @@ Algoritmo Mod3_Ej13
 	Escribir "El número es ", media
 	
 FinAlgoritmo
+
 
 
